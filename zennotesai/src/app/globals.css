@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 0%; /* Black Text */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 270 100% 80%; /* #D2A5FF */
+    --primary-foreground: 0 0% 0%; /* Black Text */
+
+    --secondary: 310 100% 94%; /* #FDE4FF */
+    --secondary-foreground: 0 0% 0%; /* Black Text */
+
+    --muted: 310 100% 94%; /* #FDE4FF */
+    --muted-foreground: 0 0% 0%; /* Black */
+
+    --accent: 270 100% 80%; /* #D2A5FF */
+    --accent-foreground: 0 0% 0%; /* Black */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 0%; /* Black Borders */
+    --input: 0 0% 0%; /* Black Input Borders */
+    --ring: 270 100% 80%; /* #D2A5FF */
+
+    --chart-1: 270 100% 80%; /* #D2A5FF */
+    --chart-2: 310 100% 94%; /* #FDE4FF */
+    --chart-3: 280 40% 50%;
+    --chart-4: 280 50% 40%;
+    --chart-5: 280 60% 30%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 280 40% 15%;
+    --foreground: 0 0% 100%; /* White Text */
+    
+    --card: 280 40% 15%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 280 40% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 270 100% 80%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 310 100% 94%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 280 40% 20%;
+    --muted-foreground: 310 100% 94%;
+
+    --accent: 270 100% 80%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 310 100% 94%;
+
+    --border: 0 0% 100%; /* White Borders in Dark Mode */
+    --input: 0 0% 100%;
+    --ring: 270 100% 80%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
