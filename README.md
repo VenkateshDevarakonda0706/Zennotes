@@ -12,8 +12,7 @@
 ZenNotes AI is a **next-generation note-taking application** designed to make your note-taking **smarter, collaborative, and AI-assisted**.  
 Whether you're brainstorming, studying, or working with a team, ZenNotes AI helps you stay organized with **real-time collaboration** and **AI-driven insights**.  
 
----
-
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 ## ✨ Features  
 
 ### ✅ Implemented  
@@ -29,7 +28,7 @@ Whether you're brainstorming, studying, or working with a team, ZenNotes AI help
 - ✂️ **AI Summarization** – Turn long notes into concise summaries.  
 - 💡 **AI Suggestions** – Get context-aware note recommendations.  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 🛠️ Getting Started  
 
@@ -75,7 +74,7 @@ bun dev
 
 Then visit 👉 [http://localhost:3000](http://localhost:3000).  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 🧩 Tech Stack  
 
@@ -85,7 +84,7 @@ Then visit 👉 [http://localhost:3000](http://localhost:3000).
 - 🟢 **Liveblocks** – Real-time collaboration backbone.  
 - ☁️ **Vercel** – Seamless deployment.  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 🚀 Deployment  
 
@@ -94,7 +93,7 @@ Just push your repo and enjoy automatic builds + hosting.
 
 📚 [Next.js Deployment Guide](https://nextjs.org/docs/deployment)  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 📖 Learn More  
 
@@ -102,16 +101,16 @@ Just push your repo and enjoy automatic builds + hosting.
 - [Interactive Next.js Tutorial](https://nextjs.org/learn)  
 - [Vercel GitHub](https://github.com/vercel/next.js)  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 👤 Author & Contact  
 
-Built with ❤️ by **Shivamani Yamana**.  
+Built with ❤️ by **C Sai Prathyun GUpta**.  
 
-📧 Email: [shivamaniyamana2003@gmail.com](mailto:shivamaniyamana2003@gmail.com)  
+📧 Email: saiprathyun85@gmail.co 
 🌟 If you like this project, don’t forget to **star the repo**!  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 ## 🧘 Closing Note  
 
