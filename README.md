@@ -105,9 +105,9 @@ Just push your repo and enjoy automatic builds + hosting.
 
 ## 👤 Author & Contact  
 
-Built with ❤️ by **C Sai Prathyun GUpta**.  
+Built with ❤️ by **Gupta-02**.  
 
-📧 Email: saiprathyun85@gmail.co 
+📧 Email: your-email@example.com 
 🌟 If you like this project, don’t forget to **star the repo**!  
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
@@ -115,4 +115,4 @@ Built with ❤️ by **C Sai Prathyun GUpta**.
 ## 🧘 Closing Note  
 
 ZenNotes AI isn’t just a note-taking tool — it’s a **mindful workspace**.  
-Collaborate, organize, and let AI handle the busywork while you focus on ideas.  
+Collaborate, organize, and let AI handle the busywork while you focus on ideas.
