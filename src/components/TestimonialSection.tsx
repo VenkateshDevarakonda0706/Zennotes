@@ -124,9 +124,9 @@ function AnimatedTestimonialAI({name}) {
     className="testimonial-card"
   >
     <div className="flex flex-col items-center">
-      <img src={testimonial.avatar} alt={testimonial.name} className="w-16 h-16 rounded-full mb-2" />
+      <img src={testimonial.image} alt={testimonial.name} className="w-16 h-16 rounded-full mb-2" />
       <div className="font-bold text-lg">{testimonial.name}</div>
-      <div className="text-neutral-500 dark:text-neutral-300 text-sm mb-2">{testimonial.role}</div>
+      <div className="text-neutral-500 dark:text-neutral-300 text-sm mb-2">{testimonial.position}</div>
       <div className="text-center text-base mb-2">{testimonial.text}</div>
       <AnimatedTestimonialAI name={testimonial.name} />
     </div>
