@@ -15,17 +15,24 @@ interface SidebarProps {
 export const Sidebar: React.FC<SidebarProps> = ({ links }) => {
   const [open, setOpen] = useState(true);
   const [search, setSearch] = useState("");
+
   const filteredLinks = links.filter(link =>
     link.label.toLowerCase().includes(search.toLowerCase())
   );
+
   return (
-    <aside className={`bg-neutral-100 dark:bg-neutral-950 h-full flex flex-col transition-all duration-300 ${open ? "w-64" : "w-16"}`}>
+    <aside
+      className={`bg-neutral-100 dark:bg-neutral-950 h-full flex flex-col transition-all duration-300 ${
+        open ? "w-64" : "w-16"
+      }`}
+    >
       <div className="flex items-center justify-between px-4 py-2">
         <button onClick={() => setOpen(!open)} className="focus:outline-none">
           {open ? <PanelRightOpen /> : <PanelRight />}
         </button>
         {open && <span className="text-lg font-bold">Notes</span>}
       </div>
+
       {open && (
         <div className="px-4 py-2">
           <input
@@ -37,6 +44,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ links }) => {
           />
         </div>
       )}
+
       <nav className="flex-1 px-2 py-2 overflow-y-auto">
         {filteredLinks.length === 0 && open ? (
           <div className="text-neutral-500 px-2 py-2">No notes found.</div>
@@ -56,6 +64,3 @@ export const Sidebar: React.FC<SidebarProps> = ({ links }) => {
     </aside>
   );
 };
-const filteredLinks = links.filter(link =>
-  link.label.toLowerCase().includes(search.toLowerCase())
-);

@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Sidebar } from "./ui/sidebar";
 // import { PanelRight, PanelRightOpen } from "lucide-react";
 import { useCollection } from "react-firebase-hooks/firestore";
 import NewDocumentButton from "./NewDocumentButton";
@@ -10,6 +9,7 @@ import { db } from "../../firebase";
 import { DocumentData } from "firebase-admin/firestore";
 import { CiFileOn } from "react-icons/ci";
 import { cn } from "../lib/utils";
+import { Sidebar } from "./ui/sidebar";
 
 interface RoomDocument extends DocumentData {
   userId: string;
