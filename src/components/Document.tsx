@@ -1,7 +1,7 @@
 "use client";
 
 import DocumentTopbar from "./DocumentTopbar";
-import { Editor } from "./DynamicEditor";
+// Removed import of Editor from DynamicEditor
 
 function Document({ id }: { id: string }) {
   return (
@@ -23,7 +23,7 @@ function Document({ id }: { id: string }) {
       dark:[&::-webkit-scrollbar-track]:bg-slate-700
       dark:[&::-webkit-scrollbar-thumb]:bg-slate-500"
       >
-        <Editor />
+        {/* Editor component removed */}
       </div>
     </div>
   );
