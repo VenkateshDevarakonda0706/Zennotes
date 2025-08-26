@@ -1,4 +1,4 @@
-/*
+
 import { credential, ServiceAccount } from "firebase-admin";
 import { App, getApp, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
@@ -22,7 +22,7 @@ if (!getApps().length) {
 const adminDb = getFirestore(adminApp);
 
 export { adminApp, adminDb };
-*/
+/*
 import { credential, ServiceAccount } from "firebase-admin";
 import { App, getApp, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
@@ -46,3 +46,4 @@ if (!getApps().length) {
 const adminDb = getFirestore(adminApp);
 
 export { adminApp, adminDb };
+*/
